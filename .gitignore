@@ -1,15 +1,113 @@
-# Virtual environment
+# Virtual environments
 venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
 
-# Environment variables
+# Environment variables / secrets
 .env
+.env.local
+.env.*.local
 
-# User data (personal)
+# User data (personal memory, notes, profile)
 user_data/
+memory.json
+profile.json
+*.db
+*.sqlite
+*.sqlite3
 
-# Python cache
+# Python cache & compiled files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
 
-# Logs
+# Logs and databases
 *.log
+*.pid
+*.seed
+*.pid.lock
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller / standalone builds
+*.spec
+build/
+dist/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# OS metadata
+Thumbs.db
+.directory
+*.bak
+
+# Wake word model downloads (if they become large)
+# openwakeword downloads models to ~/.cache/openwakeword/ – you may keep or ignore
+# ~/.cache is typically outside the repo, so no need to track
+
+# Audio recordings (if any)
+*.wav
+*.mp3
+*.flac
+
+# Transient temp files
+temp/
+tmp/
+*.tmp
+
+# Project-specific downloaded models (if you ever add local LLM)
+models/
+*.bin
+*.gguf

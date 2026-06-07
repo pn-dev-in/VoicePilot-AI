@@ -5,4 +5,5 @@ scipy
 python-dotenv
 groq
 pyttsx3
-keyboard
+pvporcupine
+pyaudio

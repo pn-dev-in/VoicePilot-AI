@@ -10,10 +10,7 @@ def load_memory():
     return json.loads(MEMORY_FILE.read_text(encoding="utf-8"))
 
 def save_memory(memory: dict):
-    MEMORY_FILE.write_text(
-        json.dumps(memory, indent=2),
-        encoding="utf-8"
-    )
+    MEMORY_FILE.write_text(json.dumps(memory, indent=2), encoding="utf-8")
 
 def remember(key: str, value: str):
     memory = load_memory()
@@ -22,4 +19,4 @@ def remember(key: str, value: str):
 
 def recall(key: str) -> str:
     memory = load_memory()
-    return memory.get(key, "I don’t have that information saved.")
+    return memory.get(key, "I don't have that information saved.")
