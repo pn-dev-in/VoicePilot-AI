@@ -9,7 +9,6 @@
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![Groq](https://img.shields.io/badge/LLM-Groq-orange.svg)](https://groq.com)
 [![Whisper](https://img.shields.io/badge/STT-Whisper-green.svg)](https://openai.com/research/whisper)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-success.svg)]()
 
 ---
@@ -444,17 +443,6 @@ The project serves as both a practical productivity tool and a showcase of moder
 ### Pravesh Nandanwar
 
 Computer Science & Engineering
-
-GitHub:
-https://github.com/pn-dev-in
-
----
-
-## 📜 License
-
-Distributed under the MIT License.
-
-See `LICENSE` for more information.
 
 ---
 
