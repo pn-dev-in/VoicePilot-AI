@@ -23,16 +23,6 @@ Unlike traditional voice assistants, VoicePilot AI focuses on privacy, modularit
 
 ---
 
-## 🎥 Demo Video
-
-### Project Walkthrough
-
-📹 **Watch the complete demonstration:**
-
-(Add YouTube Demo Link Here)
-
----
-
 ## ✨ Key Features
 
 ### 🎙️ Voice Interaction
